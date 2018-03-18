@@ -139,5 +139,29 @@ padding: 0;
     font-size: 100%;
 }
 
+@media only screen and (max-width: 400px){
+    .parallax{background-image: url(hero-mobile.png);}
+    .about p1{
+    margin: 20px 3rem 0 3rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    }
+    
+    header h1{
+    
+    align-items: center;
+    color:#fff;
+    font-size: 350%;
+    
+    
+    }
+
+    header h2{
+    font-size: 120%;
+    
+    }
+}
 
 
