@@ -1,2 +1,2 @@
 # waxworks
-Portfolio website
+A landing page for a ficticious Candle Company.
