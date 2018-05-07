@@ -1,20 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title></title>
+        <title>WaxWorks</title>
         <link href="https://fonts.googleapis.com/css?family=Grand+Hotel" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
         <link rel="stylesheet" href="resources/css/animate.css">
+        <link rel="stylesheet" href="resources/css/normalize.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
         <link rel="stylesheet" href="resources/css/style.css">
-        <link rel="stylesheet" href="css/normalize.min.css">
+
 
     </head>
 
     
-    <body>
-       <div class="container-fluid hero">
+       <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fff;">
               <a class="navbar-brand" href="#">WaxWorks</a>
                 
@@ -96,12 +96,29 @@
                     <p1>Here at WaxWorks we know the candle is a symbol of enlightenment and truth. Our mission is to illuminate young minds, and blaze a radiant path through the darkness. All of our profits go directly to community projects that focus on education. We contribute to new, student-founded initiatives whenever possible, and we also support existing educational programs that we believe show merit in helping the most underserved communities and demographics. <br>
                     <br>
                     </p1>
-                    <h1>Candles are fun!</h1>
+                    <h1>Come check us out!</h1>
                     <p1>We currently have 2 education centers in Chicago, and Louisville that provide after-school candlemaking workshops. The main goal is to provide constructive, safe environments for the children attending, but we also offer adult classes, as well as open use of the facilities for local artists and hobbyists.
                     </p1>
+                   
+            </div>
+           
+           //Gmaps is NOT working.. Why??
+            <div id="map">
+                
             </div>
 
+            <footer>
+              <ul style="display:flex; flex-direction:row; list-style:none; justify-content: center;">
+                <li style="padding: 40px;"><a href="https://www.instagram.com/?hl=en"><i class="fab fa-instagram fa-3x"></i></a></li>
+                <li style="padding: 40px;"><a href="https://www.pinterest.com/"><i class="fab fa-pinterest-square fa-3x"></i></a></li>
+                <li style="padding: 40px;"><a href="https://twitter.com/"><i class="fab fa-twitter-square fa-3x"></i></a></li>
+              </ul>
+
+            </footer>
+
             
+
+            //Still working on these product cards in bootstrap
           
             <!-- <div id="product-list" class="col col-md-12 col-sm-12 products">
 
@@ -149,19 +166,18 @@
           
           
         </div>
-    </body>
+    
 
-        
+
+    
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBERiUIvDaUan-Xdl_qv01L73nCmGe6BF4&callback=initMap" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-        <script src="js/main.js"></script>
+        <script src="resources/js/main.js"></script>
+        <script src="resources/js/gmaps.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        
     
-    <footer>
-    
-    
-    </footer>
 
 </html>

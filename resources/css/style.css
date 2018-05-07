@@ -1,6 +1,6 @@
 
 
-body{
+.container-fluid{
     margin: 0;
     padding: 0;
     font-family: 'Grand Hotel', cursive;
@@ -11,7 +11,6 @@ body{
 .col{
     display: flex;
     width: 100vw;
-    height: 100vh;
     flex-direction: column;
 }
 .row{
@@ -53,7 +52,7 @@ header h2{
 
 .parallax {
     /* The image used */
-    background-image: url(michael-mroczek-440382-unsplash.jpg);
+    background-image: url(hero-mobile.png);
     
 
     /* Set a specific height */
@@ -105,6 +104,10 @@ padding: 0;
     font-weight: 300;
     font-size: 130%;
 }
+
+
+
+
 .products{
     margin-top: 40px;
     display: flex;
@@ -139,5 +142,29 @@ padding: 0;
     font-size: 100%;
 }
 
+@media only screen and (max-width: 400px){
+    .parallax{background-image: url(hero-mobile.png);}
+    .about p1{
+    margin: 20px 3rem 0 3rem;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    }
+    
+    header h1{
+    
+    align-items: center;
+    color:#fff;
+    font-size: 350%;
+    
+    
+    }
 
+    header h2{
+    font-size: 120%;
+    
+    }
 
+}
+}
