@@ -52,7 +52,7 @@ header h2{
 
 .parallax {
     /* The image used */
-    background-image: url(michael-mroczek-440382-unsplash.jpg);
+    background-image: url(hero-mobile.png);
     
 
     /* Set a specific height */
@@ -166,8 +166,5 @@ padding: 0;
     
     }
 
-    .navbar-nav{
-        
-    }
 }
-
+}
